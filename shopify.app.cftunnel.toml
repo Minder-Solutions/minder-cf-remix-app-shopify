@@ -1,0 +1,32 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "bf9943f2455995db1887273bf130e5a9"
+name = "minder-cf-1-dev"
+handle = "minder-cf-1-dev"
+application_url = "https://dev-tunnel.minder.solutions"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2025-04"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/scopes_update" ]
+  uri = "/webhooks/app/scopes_update"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = ["https://dev-tunnel.minder.solutions/auth/callback", "https://dev-tunnel.minder.solutions/auth/shopify/callback", "https://dev-tunnel.minder.solutions/api/auth/callback"]
+
+[pos]
+embedded = false
