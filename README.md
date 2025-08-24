@@ -181,3 +181,7 @@ This template uses [Remix](https://remix.run) with Cloudflare Workers. The follo
 
 
 "wrangler": "^4.13.2"
+
+ "wrangler": "3.28.2"
+
+
