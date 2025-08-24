@@ -1,6 +1,6 @@
 {
-  "name": "cf-test-1",
-  "compatibility_date": "2025-04-01",
+  "name": "minder-cf-app-sf",
+  "compatibility_date": "2025-08-24",
   "compatibility_flags": ["nodejs_compat"],
   "main": "./server.ts",
   "assets": {
