@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "cf-test-1",
-=======
   "name": "cf-worker-shopify",
->>>>>>> dcbb79c (initial commit)
   "description": "Build a full-stack web application with Remix.",
   "cloudflare": {
     "label": "Remix Framework Starter",
@@ -27,13 +23,7 @@
     "@shopify/app-bridge-react": "^4.1.10",
     "@shopify/polaris": "^13.9.5",
     "@shopify/shopify-app-remix": "^3.8.2",
-<<<<<<< HEAD
-    "@shopify/shopify-app-session-storage-prisma": "^6.0.6",
     "isbot": "^5.1.26",
-    "prisma": "^6.6.0",
-=======
-    "isbot": "^5.1.26",
->>>>>>> dcbb79c (initial commit)
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
