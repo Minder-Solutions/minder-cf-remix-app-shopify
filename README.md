@@ -1,6 +1,6 @@
 # Shopify App Template - Cloudflare Workers
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/danyn/minder-cf-remix-app-shopify)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Minder-Solutions/minder-cf-remix-app-shopify)
 
 ## What is this?
 
