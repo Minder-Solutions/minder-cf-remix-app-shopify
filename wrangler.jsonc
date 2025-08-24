@@ -18,12 +18,14 @@
     }
   ],
   "vars": {
-    "SHOPIFY_API_KEY": "f9dc4c634af1dd016963879e879b1f0a", // Don't use this in production, use secrets in the dashboard https://developers.cloudflare.com/workers/configuration/secrets/#adding-secrets-to-your-project
-    "SHOPIFY_API_SECRET": "5b3b654dc32a1492a01da4722a9020b5", // Don't use this in production, use secrets in the dashboard https://developers.cloudflare.com/workers/configuration/secrets/#adding-secrets-to-your-project
-    "SHOPIFY_APP_URL": "https://cf-test-1.minder-solutions.workers.dev", // adjust as needed
+    "SHOPIFY_API_KEY": "03a8804db44116cdd62eb7c25056090c", // Don't use this in production, use secrets in the dashboard https://developers.cloudflare.com/workers/configuration/secrets/#adding-secrets-to-your-project
+    "SHOPIFY_API_SECRET": "74047ade080749d5d6787fd7cc3ecd96", // Don't use this in production, use secrets in the dashboard https://developers.cloudflare.com/workers/configuration/secrets/#adding-secrets-to-your-project
+    "SHOPIFY_APP_URL": "https://sf-remix-app.minder-solutions.workers.dev", // adjust as needed https://cf-test-1.minder-solutions.workers.dev
     "SCOPES": "write_products" // adjust scopes as needed
   }
 }
+
+
 
 
 
